@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: apche
-        image: apache:latest
+        image: httpd:latest
         resources:
           limits:
             memory: "128Mi"
